@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "trilogy friendfinder assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMD-518/friendfinder.git"
+  },
+  "keywords": [
+    "friendfinder"
+  ],
+  "author": "Bijan Dayani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BMD-518/friendfinder/issues"
+  },
+  "homepage": "https://github.com/BMD-518/friendfinder#readme"
+}
