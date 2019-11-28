@@ -14,14 +14,14 @@ module.exports = function (app) {
 
         for (var i = 0; i < friendsData.length; i++) {
             var score = compareFriends(newFriend.scores, friendsData[i].scores);
-            console.log("Score for " + friendData[i].name + ": " + score);
+            console.log("Score for " + friendsData[i].name + ": " + score);
             if (score < bestScore) {
                 bestMatch = friendsData[i];
                 bestScore = score;
             }
         }
 
-        console.log('Best Match: ' + bestMatch);
+        console.log('Best Match: ' + bestMatch.name);
 
         friendsData.push(newFriend);
         res.json(bestMatch);
