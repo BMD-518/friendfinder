@@ -18,11 +18,33 @@
 
 </head>
 
-<body cz-shortcut-listen="true">
+<body cz-shortcut-listen="true" style="
+background-image: url(https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #f5f0e3;">
 
-    <div class="container">
+<style>
+    h2 {
+        color: black;
+    }
+    h3 {
+        color: black;
+    }
+    h4 {
+        color: black;
+    }
+    .chosen-select {
+        background-color: #40bfc1;
+        color: black;
+    }
+</style>
 
-        <h2>Survey Questions</h2>
+    <div class="container" style="background-color: #F0134D; opacity: .8;">
+
+        <h2 class="text-center">Survey Questions</h2>
         <hr>
 
         <h3><strong>About You</strong></h3>
@@ -173,15 +195,14 @@
         <div class="modal-dialog">
 
             <!-- Modal content-->
-            <div class="modal-content">
+            <div class="modal-content" style="background-color: #ff6f5e;">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">×</button>
                     <h2 class="modal-title"><strong>Best Match</strong></h2>
                 </div>
                 <div class="modal-body">
                     <h2 id="match-name"></h2>
-                    <img id="match-img"
-                        src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+                    <img id="match-img">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
