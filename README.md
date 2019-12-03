@@ -18,7 +18,7 @@ and these 2 Node packages: [Express](https://www.npmjs.com/package/express) | [P
 
 ## Deployed Site
 
-This App is deployed on *Heroku* [click Here](https://friendfinder1425.herokuapp.com/) to be redirected to the application.
+This App is deployed on *Heroku* [click Here](https://radiant-sea-68000.herokuapp.com/) to be redirected to the application.
 
 ![FriendFinder](friendfinder.png)
 
